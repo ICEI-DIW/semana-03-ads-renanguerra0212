@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catálogo de Filmes</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function verDetalhes(filme) {
+            window.location.href = `detalhes.html?filme=${filme}`;
+        }
+
+        function favoritar(filme) {
+            alert(`${filme} foi adicionado aos favoritos!`);
+        }
+    </script>
 </head>
 <body>
-    
+    <header>
+        <h1>Catálogo de Lançamentos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Populares</a></li>
+                <li><a href="#">Gêneros</a></li>
+                <li><a href="#">Minha Lista</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <input type="text" id="search" placeholder="Buscar filmes...">
+        <section class="catalogo">
+            <div class="filme">
+                <img src="Minha mãe é uma peça.jpg" alt="Filme 1">
+                <h3>Minha Mãe é uma Peça</h3>
+                <p>Minha Mãe é uma Peça é um filme que conta a história de Dona Hermínia, uma mulher de meia idade que é mãe de Marcelina e Juliano. A personagem é dedicada aos filhos, mas sente-se entediada quando eles crescem e já não precisam tanto dela. </p>
+                <button onclick="verDetalhes('Filme 1')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 1')">⭐ Favoritar</button>
+            </div>
+            <div class="filme">
+                <img src="Minha mae é uma peça 2.jpg" alt="Filme 2">
+                <h3>Minha Mãe é uma Peça 2</h3>
+                <p>Dona Hermínia passa a apresentar um bem-sucedido programa de TV e fica rica. No entanto, ela precisa lidar com um lar vazio, pois Juliano e Marcelina resolveram sair de casa. Para balancear, Garib, o primogênito, chega com o neto. Além disso, ela também recebe uma longa visita da irmã Lucia Helena, a ovelha negra da família, que mora há anos em Nova York.</p>
+                <button onclick="verDetalhes('Filme 2')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 2')">⭐ Favoritar</button>
+            </div>
+            <div class="filme">
+                <img src="Minha mae é uma peça 3.png" alt="Filme 1">
+                <h3>Minha Mãe é uma Peça 3</h3>
+                <p>Dona Hermínia precisa se redescobrir e se reinventar porque seus filhos estão formando novas famílias. Marcelina está grávida e Juliano vai casar. Dona Hermínia está mais ansiosa do que nunca. Para completar as confusões, Carlos Alberto, seu ex-marido, que esteve sempre por perto, agora resolve se mudar para o apartamento ao lado.</p>
+                <button onclick="verDetalhes('Filme 1')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 1')">⭐ Favoritar</button>
+            </div>
+            <div class="filme">
+                <img src="Rei leao.png" alt="Filme 1">
+                <h3>Mufasa O Rei Leão</h3>
+                <p>Mufasa, um filhote órfão, perdido e sozinho, conhece um simpático leão chamado Taka, herdeiro de uma linhagem real. O encontro ao acaso dá início a uma grande jornada de um grupo extraordinário em busca de seu destino, além de revelar a ascensão de um dos maiores reis das Terras do Orgulho.</p>
+                <button onclick="verDetalhes('Filme 1')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 1')">⭐ Favoritar</button>
+            </div>
+            <div class="filme">
+                <img src="O macaco.png" alt="Filme 1">
+                <h3>O macaco</h3>
+                <p>Irmãos gêmeos encontram um misterioso macaco de corda. Após a descoberta, uma série de mortes absurdas destroça a família. Muitos anos depois, o macaco inicia uma nova onda de assassinatos, forçando os irmãos a enfrentar o brinquedo amaldiçoado.</p>
+                <button onclick="verDetalhes('Filme 1')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 1')">⭐ Favoritar</button>
+            </div>
+            <div class="filme">
+                <img src="Minecraft O Filme.jpg" alt="Filme 1">
+                <h3>Minecraft O Filme</h3>
+                <p>O malévolo Ender Dragon inicia um caminho de destruição, levando uma jovem e seu grupo de aventureiros improváveis a partir para salvar o Overworld.</p>
+                <button onclick="verDetalhes('Filme 1')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 1')">⭐ Favoritar</button>
+            </div>
+            <div class="filme">
+                <img src="Karate kid.jpg" alt="Filme 1">
+                <h3>Karate Kid</h3>
+                <p>Um garoto de 12 anos chamado Dre Parker se muda para a China com a mãe e se vê em um terra estranha. Ele sabe um pouco de caratê, mas suas habilidades não são o bastante para enfrentar o valentão da escola, Cheng. Dre faz amizade com o Sr. Han, um mestre das artes marciais, que lhe ensina os segredos do kung fu na esperança de que o garoto possa derrotar Cheng e, quem sabe, conquistar o coração da linda Mei Ying.</p>
+                <button onclick="verDetalhes('Filme 1')">Ver Detalhes</button>
+                <button onclick="favoritar('Filme 1')">⭐ Favoritar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Catálogo de Filmes</p>
+    </footer>
 </body>
 </html>

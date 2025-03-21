@@ -8,17 +8,18 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Renan Guerra Gonçalves
+- Matricula:883132
+- Proposta de projeto escolhida:Catálogo de filmes
+- Breve descrição sobre seu projeto:O Catálogo de Filmes é uma plataforma simples e interativa que permite aos usuários descobrir e explorar os últimos lançamentos do cinema.
 
 
 ## Print do esboço criada
 
 <<  COLOQUE A IMAGEM AQUI >>
-
+![alt text](<Esboço Paint-1.png>)
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Home page-1.png>)
